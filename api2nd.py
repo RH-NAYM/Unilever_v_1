@@ -1,6 +1,6 @@
 
 
-from main import *
+from main2nd import *
 from fastapi import FastAPI
 from pydantic import BaseModel
 import asyncio

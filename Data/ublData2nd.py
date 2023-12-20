@@ -1,7 +1,8 @@
 from ultralytics import YOLO
 
+# Initialize YOLO models
 daModel = YOLO('AI_Models/ublDA_v1.pt')
-qpdsModel = YOLO('AI_Models/ublDA_v1.pt')
+qpdsModel = YOLO('AI_Models/best.pt')
 sosModel = YOLO('AI_Models/ublDA_v1.pt')
 
 
@@ -135,11 +136,16 @@ comHomeHyg_clean = [
 
 ########################################################################################################################################################################
 
-psSC = [
+psFC = [
             "gl_foundation_crm", 
             "gl_aryuvedic_crm", 
             "gl_mltvit_crm",
             "ponds_white_beauty_crm",
+            "da_skin_care_st"
+        ]
+
+
+psFW = [
             "gl_insta_glow_fw",
             "ponds_white_beauty_fw", 
             "ponds_pure_white_fw", 
@@ -201,5 +207,4 @@ qpdsSC = [
             "dove_qpds",
             "qpds_st"
         ]
-
 
